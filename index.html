@@ -5,77 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>My CV</title>
 
 </head>
 
-<body>
+<body id="body">
     <header>
-        <img src="./img/Frame 7.svg" alt="">
+        <img src="./img/Frame 7.svg" alt="logo">
         <nav>
             <ul>
-                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./About.html">About</a></li>
                 <li><a href="./Experience.html">Experience</a></li>
                 <li><a href="./Contact.html">Contact</a></li>
             </ul>
 
         </nav>
-        <button>Hire me</button>
+        <button>Hire Me</button>
 
 
     </header>
-    <h2>Hi my name is Ana Milé OH</h2>
-    <h1>Foreign language studente, bartender, music lover</h1>
-    <h4>I'll prepare your booze in Spanish, English and French</h4>
-    <img src="./img/Avatar.svg" alt="">
-    <div><img src="./img/Icono 1.svg" alt="">
-        <p>5+ <br> Years as Bartender</p>
-    </div>
-    <div><img src="./img/Icono 2.svg" alt="">
-        <p>100+ <br> Parties</p>
-    </div>
-    <div><img src="./img/Icono 3.svg" alt="">1000+ <br> Drunk Clients</div>
+
+    <main>
+        <h2>Hi my name is <span id="Minombreamarillo">Ana Milé OH 👋</span></h2>
+        <h1>Foreign language student, bartender, music lover</h1>
+        <span id="subtitulomain">I'll prepare your booze in Spanish, English and French</span>
+        
+        <img src="./img/Avatar.svg" alt="Foto de perfil">
+    </main>
+
+    <section>
+        <div class="CajaGris">
+            <img src="./img/Icono 1.svg" alt="">
+            <span>5+</span>
+            <span>Years of Experience</span>
+        </div>
+        <div class="CajaGris">
+            <img src="./img/Icono 2.svg" alt="">
+            <span>100+</span>
+            <span> Succesful Parties</span>
+        </div>
+        <div class="CajaGris">
+            <img src="./img/Icono 3.svg" alt="">
+            <span>1000+</span>
+            <span>Drunk Clients</span>
+
+
+        </div>
+    </section>
+
+
 
     <footer>
-        <div> <span>
-                <h2>Ana Milé OH</h2>
+        <div> <span class="enbloque">
+                Ana Milé OH
             </span>
-            <p>
-            <h5>Senior language student & bartender</h5>
-            </p>
 
-        </div>
-        <div>
-            <span>
-                <h4>Useful links</h4>
-            </span>
-            <li><a href="./Home.html">Home</a></li>
-            <li><a href="./About.html">About</a></li>
-            <li><a href="./Experience.html">Experience</a></li>
-            <li><a href="./Contact.html">Contact</a></li>
+            <span class="enbloque">Senior language student & bartender</span>
+
         </div>
 
         <div>
-            <span>
-                <h4>Social Media</h4>
-            </span>
+
+            <h4>Useful links</h4>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Experience.html">Experience</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+
+            </ul>
         </div>
 
         <div>
-            <li><a href="./Home.html">Linkedin</a></li>
-            <li><a href="./About.html">GitHub</a></li>
-            <li><a href="./Experience.html">Instagram</a></li>
+            <h4>Social Media</h4>
+            <ul>
+
+                <li><a href="./Home.html">Linkedin</a></li>
+                <li><a href="https://github.com/anamileoh">GitHub</a></li>
+                <li><a href="https://www.instagram.com/anamileoh/">Instagram</a></li>
+            </ul>
 
         </div>
 
-        <div> <span>
-                <h4>Hire Me</h4>
-            </span>
-            <p> Enter your email to get my <br>
-                and CV</p>
+        <div>
+            <h4>Hire Me</h4>
+            <span> Enter your email to get my and CV </span>
 
-            <input type="email">
+
+            <form action="">Your emmail address</form>
 
             <img src="./img/Icono 4.svg" alt="">
 
