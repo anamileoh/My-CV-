@@ -6,7 +6,6 @@
     margin: auto;
     margin: 0px;
     margin-bottom: 25px
-
 }
 
 header {
@@ -59,21 +58,27 @@ button {
     background-color: #292b2e;
 }
 
+.CajaGris>img {
+
+   margin:20px 0px 20px 20px 
+}
+
 
 
 main {
     font-family: 'inter';
     text-align: center;
-    margin:50px 10px ;
-    
+    margin: 50px 10px;
+
 
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 20px;
 }
 
-#subtitulomain{
+#subtitulomain {
     display: block;
 
 }
@@ -107,6 +112,12 @@ h1 {
     font-size: 24px;
 }
 
+
+
+
+
+
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -118,9 +129,10 @@ footer ul {
     flex-direction: column;
 }
 
-footer span{
+footer span {
     display: block;
 }
+
 .enbloque {
     display: block;
 }
