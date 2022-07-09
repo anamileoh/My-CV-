@@ -54,13 +54,43 @@ button {
     background-color: #ffb742;
 }
 
+
+
 .CajaGris {
+    display: flex;
+    flex-direction: row;
+
+
     background-color: #292b2e;
+    border-radius: 15px;
 }
 
-.CajaGris>img {
+/* simbolo >  sirve para aplicar un estilo a TODAS las etiquetas  que esten en el primer nivel */
 
-   margin:20px 0px 20px 20px 
+.CajaGris>img {
+    
+    margin: 20px;
+    width: 30%;
+
+}
+
+.CajaDescripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+.CajaDescripcion span {
+    text-align: center;
+    margin: 0px;
+}
+
+/* filtro first child sirve para aplicar estilos propiedades UNICAMENTE al primer elemento hijo (child) */
+
+.CajaDescripcion span:first-child {
+    font-weight: bold;
+    color: #ffb742;
+    font-size: 20px;
+    
 }
 
 
@@ -90,10 +120,9 @@ section {
 
 section div {
     height: 120px;
-    width: 416px;
+    width: 33%;
     margin: 30px;
 }
-
 
 
 h2 {
@@ -122,17 +151,30 @@ footer {
     display: flex;
     justify-content: space-between;
 
+    padding: 80px 0px 20px 50px;
     background-color: #1c1c1c;
+}
+
+footer div {
+
+
 }
 
 footer ul {
     flex-direction: column;
+    padding: 0px;
 }
 
 footer span {
     display: block;
 }
 
+
+footer div span:first-child {
+    color:#ffb742;
+    font-size: 20px;
+    font-weight: bold;
+}
 .enbloque {
     display: block;
 }
