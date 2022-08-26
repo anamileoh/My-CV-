@@ -48,7 +48,7 @@ button {
     font-weight: bold;
     border-radius: 20px;
     border-style: none;
-    width: 100px;
+    width: 130px;
     height: 40px;
     padding: 5px;
     background-color: #ffb742;
@@ -68,7 +68,7 @@ button {
 /* simbolo >  sirve para aplicar un estilo a TODAS las etiquetas  que esten en el primer nivel */
 
 .CajaGris>img {
-    
+
     margin: 20px;
     width: 30%;
 
@@ -90,7 +90,7 @@ button {
     font-weight: bold;
     color: #ffb742;
     font-size: 20px;
-    
+
 }
 
 
@@ -113,12 +113,12 @@ h2 {
 
 }
 
-section {
+.index-section {
     display: flex;
     margin: 40px;
 }
 
-section div {
+.index-section div {
     height: 120px;
     width: 33%;
     margin: 30px;
@@ -155,10 +155,7 @@ footer {
     background-color: #1c1c1c;
 }
 
-footer div {
 
-
-}
 
 footer ul {
     flex-direction: column;
@@ -182,3 +179,32 @@ footer div span:first-child {
 footer li {
     margin: 2px;
 }
+
+.emailBox {
+
+        display: flex;
+        /* background: #212529;
+        border-radius: 50px;
+        color: #7C7C7C;
+        height: 40px;
+        margin: 10px;
+        margin-top: 20px; */
+    }
+
+    .emailBox > input {
+        border-radius: 50px;
+        height: 40px;
+        margin-top: 20px;
+            
+            width: 80%;
+            background: #212529;
+            color: #7B7B7B;
+            font-weight: 700;
+            line-height: 100%;
+            border: none;
+    }
+
+    .sendLogo {
+        width: 40px;
+        height:40px;
+    }

@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/contact.css">
+    <script src="JS/jokes.js"></script>
 
     <title>My CV</title>
 
@@ -30,24 +31,47 @@
             </ul>
 
         </nav>
-        <button>Hire Me</button>
+        <button>Change Mode</button>
 
 
     </header>
-
-    <div class="cajaContacto">
+    <div class="cajaCentrada">
         <div>
-            <h4>CONTACT ME</h4>
+            <div>
+                <button> Smile </button>
+                <h3> Contact Me... or Smile!</h3>
+            </div>
+            <div id="joke-box">
+                <div id="joke"> </div>
+                <div id="punchline"> </div>
+            </div>
         </div>
-        <div class="formContact">
-            <form class="form" action="">
-                <input type="text" name="" id="name" placeholder="Name">
-                <input type="email" name="" id="email" placeholder="Email address">
-                <input type="text" name="" id="phone" placeholder="Phone number">
-            </form>
+        <div>
+            <button id="one-more"> One more! </button>
         </div>
-        <div id="button-send">
-            <button>Send</button>
+
+    </div>
+
+
+
+
+
+
+    <div class="cajaCentrada">
+        <div>
+            <div>
+                <h4>CONTACT ME</h4>
+            </div>
+            <div class="formContact">
+                <form class="form" action="">
+                    <input type="text" name="" id="name" placeholder="Name">
+                    <input type="email" name="" id="email" placeholder="Email address">
+                    <input type="text" name="" id="phone" placeholder="Phone number">
+                </form>
+            </div>
+            <div id="button-send">
+                <button>Send</button>
+            </div>
         </div>
 
     </div>
@@ -90,12 +114,12 @@
             <span> Enter your email to get my and CV </span>
 
 
-            <form action="">Your emmail address</form>
-            <input type="email" placeholder="Your email address">
+            <div class="emailBox">
 
-            <img src="./img/Icono 4.svg" alt="">
+                <input type="email" placeholder="Your email address">
 
-
+                <img class="sendLogo" src="./img/send.svg" alt="">
+            </div>
 
         </div>
 

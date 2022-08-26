@@ -1,16 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap');
 
 
-.about_me {
-    display: flex;
 
-}
 
 .form {
     display: flex;
     flex-direction: column;
+
 }
 
-.cajaContacto {
-    width: 220px;
+.cajaCentrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaCentrada div {
+    width: 300px;
+}
+
+#joke-box{
+    height: 200px;
+
+background-color: white;
+
+
+
+}
+
+#joke,#punchline { 
+    color: black;
+    font-size: 15px;
 }

@@ -1,12 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap');
 
-
-.about_me {
+#caja-section {
     display: flex;
+    flex-direction: row;
+
 
 }
 
-.cajaBlanca {
+
+
+
+
+.caja-sub {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+}
+
+.caja-sub > img {
+    width: 30%;
+}
+
+#exp {
+    color: #FFB742;
+    background-color: #7b7b7b37;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 150px;
+    padding: 6px 0px 6px 0px;
+}
+
+h1 { 
+    font-size: 30px;
+
+}
+
+.titles {
+    font-size: 20px;
+}
+
+
+
+.caja-info {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 200px;
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+ 
+}
+ 
+.link-wwc{
+font-size: 16px;
+text-decoration: underline;
+color: #FFB742;
+
+
+
 }
