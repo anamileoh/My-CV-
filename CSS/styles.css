@@ -230,3 +230,8 @@ footer li {
     .nav-change-mode{
         color: black;
     }
+
+    .caja-info-change-mode {
+        background-color: black;
+        color: white;
+    }

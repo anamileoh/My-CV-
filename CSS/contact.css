@@ -1,34 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap');
 
+.caja-centrada {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 
 .form {
     display: flex;
     flex-direction: column;
-
-}
-
-.cajaCentrada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cajaCentrada div {
     width: 300px;
 }
 
-#joke-box{
-    height: 200px;
 
-background-color: white;
+#contact-me {
+    color: #FFB742;
+    background-color: #7b7b7b37;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 150px;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+}
+
+#button-send {
+    text-align: center;
+}
+
+
+#joke-box {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
 
 
 
 }
 
-#joke,#punchline { 
+#joke,
+#punchline {
     color: black;
     font-size: 15px;
 }
