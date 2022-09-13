@@ -46,3 +46,11 @@
     color: black;
     font-size: 15px;
 }
+
+.form > input {
+    border: 0;
+    outline: 0;
+    outline-color: white;
+    background: transparent;
+    border-bottom: 1px solid black;
+  }

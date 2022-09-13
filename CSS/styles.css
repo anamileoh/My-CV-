@@ -47,7 +47,7 @@ a:hover {
 
 
 
-.main-info{
+.main-info {
     color: white;
 }
 
@@ -176,10 +176,11 @@ footer span {
 
 
 footer div span:first-child {
-    color:#ffb742;
+    color: #ffb742;
     font-size: 20px;
     font-weight: bold;
 }
+
 .enbloque {
     display: block;
 }
@@ -189,49 +190,51 @@ footer li {
 }
 
 .emailBox {
+    position: relative;
+    background: #212529;
+    border-radius: 50px;
+    color: #7C7C7C;
+    height: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
 
-        display: flex;
-        /* background: #212529;
-        border-radius: 50px;
-        color: #7C7C7C;
-        height: 40px;
-        margin: 10px;
-        margin-top: 20px; */
-    }
+.emailBox input {
+    border: none;
+    border-radius: 50px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background: #212529;
+    border-radius: 50px;
+    color: #7C7C7C;
+    height: 40px;
+}
 
-    .emailBox > input {
-        border-radius: 50px;
-        height: 40px;
-        margin-top: 20px;
-            
-            width: 80%;
-            background: #212529;
-            color: #7B7B7B;
-            font-weight: 700;
-            line-height: 100%;
-            border: none;
-    }
+.emailBox img {
+    position: absolute;
+    top: 2px;
+    right: 5px
+}
 
-    .sendLogo {
-        width: 40px;
-        height:40px;
-    }
+.sendLogo {
+    width: 40px;
+    height: 40px;
+}
 
+.body-change-mode {
+    background-color: white;
+}
 
-    .body-change-mode{
-        background-color: white;
-       
-    }
+.main-change-mode {
+    color: black;
+}
 
-    .main-change-mode{
-        color: black;
-    }
-  
-    .nav-change-mode{
-        color: black;
-    }
+.nav-change-mode {
+    color: black;
+}
 
-    .caja-info-change-mode {
-        background-color: black;
-        color: white;
-    }
+.caja-info-change-mode {
+    background-color: black;
+    color: white;
+}
