@@ -16,14 +16,22 @@
 }
 
 
-#contact-me {
+.contact-me{
+    text-align: center;
+
+
+
+}
+
+
+#contact-button {
     color: #FFB742;
     background-color: #7b7b7b37;
     font-size: 15px;
     border-radius: 50px;
     width: 150px;
     padding: 6px 0px 6px 0px;
-    text-align: center;
+
 }
 
 #button-send {
@@ -31,7 +39,7 @@
 }
 
 
-#joke-box {
+.joke-box {
     height: 200px;
     width: 400px;
     background-color: white;
@@ -47,10 +55,19 @@
     font-size: 15px;
 }
 
-.form > input {
+.form>input {
     border: 0;
     outline: 0;
     outline-color: white;
     background: transparent;
     border-bottom: 1px solid black;
-  }
+}
+
+.joke-box-change-mode {
+    background-color: #212529;
+    color: white;
+}
+
+.div-joke-change-mode{
+    color: white !important;
+}
