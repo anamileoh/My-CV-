@@ -63,10 +63,14 @@ h1 {
     font-size: 16px;
     text-decoration: underline;
     color: #FFB742;
-
-
-
 }
+
+
+.link-here {
+    color: black;
+    text-decoration: underline;
+}
+
 
 .caja-info-change-mode {
     background-color: #212529 !important;
@@ -74,11 +78,11 @@ h1 {
 }
 
 
-.logo-red-change-mode{
+.logo-red-change-mode {
 
     content: url('../img/logored.svg');
 }
 
-.logo-wwc-change-mode{
+.logo-wwc-change-mode {
     content: url('../img/WWCode_Medellin_White.svg');
 }
